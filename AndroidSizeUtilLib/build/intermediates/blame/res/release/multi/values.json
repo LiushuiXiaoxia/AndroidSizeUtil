@@ -1,0 +1,107 @@
+[
+    {
+        "outputFile": "/Users/xiaqiulei/Documents/code/temp/AndroidSizeUtil/AndroidSizeUtilLib/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "/Users/xiaqiulei/Documents/code/temp/AndroidSizeUtil/AndroidSizeUtilLib/build/intermediates/exploded-aar/com.android.databinding/library/1.0-rc3/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 40,
+                        "endOffset": 91
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 56,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "/Users/xiaqiulei/Documents/code/temp/AndroidSizeUtil/AndroidSizeUtilLib/build/intermediates/exploded-aar/com.android.databinding/adapters/1.0-rc3/res/values/values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 56,
+                        "endOffset": 107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 40,
+                    "endOffset": 189
+                },
+                "from": {
+                    "file": "/Users/xiaqiulei/Documents/code/temp/AndroidSizeUtil/AndroidSizeUtilLib/build/intermediates/exploded-aar/com.android.databinding/adapters/1.0-rc3/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 112,
+                        "endColumn": 40,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 194,
+                    "endColumn": 55,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "/Users/xiaqiulei/Documents/code/temp/AndroidSizeUtil/AndroidSizeUtilLib/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 55,
+                        "endOffset": 67
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/xiaqiulei/Documents/code/temp/AndroidSizeUtil/AndroidSizeUtilLib/build/intermediates/bundles/release/res/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/xiaqiulei/Documents/code/temp/AndroidSizeUtil/AndroidSizeUtilLib/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 55,
+                        "endOffset": 67
+                    }
+                }
+            }
+        ]
+    }
+]

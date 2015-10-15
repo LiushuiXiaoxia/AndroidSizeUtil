@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="dimen"
+            type="cn.mycommons.androidsizeutil.DimenUtil" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/content_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#faa"
+            android:gravity="center"
+            android:text="1"
+            app:size="@{dimen.size(dimen.csw/3,dimen.csh/3)}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="2"
+            app:layout_height="@{dimen.csh/3}"
+            app:layout_marginLeft="@{dimen.csw/3}"
+            app:layout_marginTop="@{0}"
+            app:layout_width="@{dimen.csw*2/3}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f0f"
+            android:gravity="center"
+            android:text="3"
+            app:layout_height="@{dimen.csh*2/3}"
+            app:layout_marginLeft="@{0}"
+            app:layout_marginTop="@{dimen.csh/3}"
+            app:layout_width="@{dimen.csw/3}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0"
+            android:gravity="center"
+            android:text="4"
+            app:layout_height="@{dimen.csh*2/3}"
+            app:layout_marginLeft="@{dimen.csw/3}"
+            app:layout_marginTop="@{dimen.csh/3}"
+            app:layout_width="@{dimen.csw*2/3}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0f0"
+            android:gravity="center"
+            android:text="5"
+            app:layout_marginLeft="@{dimen.csw/3-dimen.dp(50)}"
+            app:layout_marginTop="@{dimen.csh/3-dimen.dp(50)}"
+            app:size="@{dimen.sizeDp(100,100)}" />
+    </RelativeLayout>
+</layout>
