@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="AndroidSizeUtil" module="AndroidSizeUtilLib" revision="unspecified" status="integration" publication="20151016174414">
+  <info organisation="AndroidSizeUtil" module="AndroidSizeUtilLib" revision="unspecified" status="integration" publication="20151016174554">
     <description/>
   </info>
   <configurations>
