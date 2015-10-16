@@ -12,7 +12,4 @@ public final class R {
 		public static final int onAttachStateChangeListener = 0x7f020001;
 		public static final int textWatcher = 0x7f020002;
 	}
-	public static final class string {
-		public static final int app_name = 0x7f030000;
-	}
 }

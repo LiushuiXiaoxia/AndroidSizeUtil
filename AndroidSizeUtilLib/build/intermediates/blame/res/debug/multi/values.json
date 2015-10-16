@@ -82,25 +82,6 @@
                         "endOffset": 148
                     }
                 }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 194,
-                    "endColumn": 55,
-                    "endOffset": 245
-                },
-                "from": {
-                    "file": "/Users/xiaqiulei/Documents/code/temp/AndroidSizeUtil/AndroidSizeUtilLib/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 1,
-                        "startColumn": 4,
-                        "startOffset": 16,
-                        "endColumn": 55,
-                        "endOffset": 67
-                    }
-                }
             }
         ]
     }

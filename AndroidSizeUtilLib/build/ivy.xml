@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+  <info organisation="AndroidSizeUtil" module="AndroidSizeUtilLib" revision="unspecified" status="integration" publication="20151016174414">
+    <description/>
+  </info>
+  <configurations>
+    <conf name="_debugAndroidTestApk" visibility="private" description="## Internal use, do not manually configure ##" extends="_debugPublish,androidTestCompile,androidTestPublish"/>
+    <conf name="_debugAndroidTestCompile" visibility="private" description="## Internal use, do not manually configure ##" extends="_debugCompile,androidTestCompile,androidTestProvided"/>
+    <conf name="_debugCompile" visibility="private" description="## Internal use, do not manually configure ##" extends="compile,debugCompile,debugProvided,provided"/>
+    <conf name="_debugPublish" visibility="private" description="## Internal use, do not manually configure ##" extends="compile,debugCompile,debugPublish,publish"/>
+    <conf name="_debugUnitTestApk" visibility="private" description="## Internal use, do not manually configure ##" extends="_debugPublish,testCompile,testDebugCompile,testDebugPublish,testPublish"/>
+    <conf name="_debugUnitTestCompile" visibility="private" description="## Internal use, do not manually configure ##" extends="_debugCompile,testCompile,testDebugCompile,testDebugProvided,testProvided"/>
+    <conf name="_releaseCompile" visibility="private" description="## Internal use, do not manually configure ##" extends="compile,provided,releaseCompile,releaseProvided"/>
+    <conf name="_releasePublish" visibility="private" description="## Internal use, do not manually configure ##" extends="compile,publish,releaseCompile,releasePublish"/>
+    <conf name="_releaseUnitTestApk" visibility="private" description="## Internal use, do not manually configure ##" extends="_releasePublish,testCompile,testPublish,testReleaseCompile,testReleasePublish"/>
+    <conf name="_releaseUnitTestCompile" visibility="private" description="## Internal use, do not manually configure ##" extends="_releaseCompile,testCompile,testProvided,testReleaseCompile,testReleaseProvided"/>
+    <conf name="androidJacocoAgent" visibility="private" description="The Jacoco agent to use to get coverage data."/>
+    <conf name="androidJacocoAnt" visibility="private" description="The Jacoco ant tasks to use to get execute Gradle tasks."/>
+    <conf name="androidTestCompile" visibility="private" description="Classpath for compiling the androidTest sources."/>
+    <conf name="androidTestProvided" visibility="private" description="Classpath for only compiling the androidTest sources."/>
+    <conf name="androidTestPublish" visibility="private" description="Classpath only used when publishing 'androidTest'."/>
+    <conf name="androidTestWearApp" visibility="private" description="Link to a wear app to embed for object 'androidTest'."/>
+    <conf name="archives" visibility="public" description="Configuration for archive artifacts."/>
+    <conf name="compile" visibility="private" description="Classpath for compiling the main sources."/>
+    <conf name="debugCompile" visibility="private" description="Classpath for compiling the debug sources."/>
+    <conf name="debugProvided" visibility="private" description="Classpath for only compiling the debug sources."/>
+    <conf name="debugPublish" visibility="private" description="Classpath only used when publishing 'debug'."/>
+    <conf name="debugWearApp" visibility="private" description="Link to a wear app to embed for object 'debug'."/>
+    <conf name="default" visibility="public" description="Configuration for default artifacts." extends="_releasePublish"/>
+    <conf name="default-mapping" visibility="public" description="Configuration for default mapping artifacts."/>
+    <conf name="default-metadata" visibility="public" description="Metadata for the produced APKs."/>
+    <conf name="provided" visibility="private" description="Classpath for only compiling the main sources."/>
+    <conf name="publish" visibility="private" description="Classpath only used when publishing 'main'."/>
+    <conf name="releaseCompile" visibility="private" description="Classpath for compiling the release sources."/>
+    <conf name="releaseProvided" visibility="private" description="Classpath for only compiling the release sources."/>
+    <conf name="releasePublish" visibility="private" description="Classpath only used when publishing 'release'."/>
+    <conf name="releaseWearApp" visibility="private" description="Link to a wear app to embed for object 'release'."/>
+    <conf name="testCompile" visibility="private" description="Classpath for compiling the test sources."/>
+    <conf name="testDebugCompile" visibility="private" description="Classpath for compiling the testDebug sources."/>
+    <conf name="testDebugProvided" visibility="private" description="Classpath for only compiling the testDebug sources."/>
+    <conf name="testDebugPublish" visibility="private" description="Classpath only used when publishing 'testDebug'."/>
+    <conf name="testDebugWearApp" visibility="private" description="Link to a wear app to embed for object 'testDebug'."/>
+    <conf name="testProvided" visibility="private" description="Classpath for only compiling the test sources."/>
+    <conf name="testPublish" visibility="private" description="Classpath only used when publishing 'test'."/>
+    <conf name="testReleaseCompile" visibility="private" description="Classpath for compiling the testRelease sources."/>
+    <conf name="testReleaseProvided" visibility="private" description="Classpath for only compiling the testRelease sources."/>
+    <conf name="testReleasePublish" visibility="private" description="Classpath only used when publishing 'testRelease'."/>
+    <conf name="testReleaseWearApp" visibility="private" description="Link to a wear app to embed for object 'testRelease'."/>
+    <conf name="testWearApp" visibility="private" description="Link to a wear app to embed for object 'test'."/>
+    <conf name="wearApp" visibility="private" description="Link to a wear app to embed for object 'main'."/>
+  </configurations>
+  <publications>
+    <artifact name="AndroidSizeUtilLib" type="aar" ext="aar" conf="archives,default"/>
+  </publications>
+  <dependencies>
+    <dependency org="com.android.databinding" name="library" rev="1.0-rc3" conf="compile-&gt;default"/>
+    <dependency org="com.android.databinding" name="adapters" rev="1.0-rc3" conf="compile-&gt;default"/>
+    <dependency org="com.android.databinding" name="compiler" rev="1.0-rc4" conf="provided-&gt;default"/>
+    <dependency org="junit" name="junit" rev="4.12" conf="testCompile-&gt;default"/>
+  </dependencies>
+</ivy-module>

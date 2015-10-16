@@ -13,10 +13,7 @@
         android:label="Tests for cn.mycommons.androidsizeutil.test"
         android:targetPackage="cn.mycommons.androidsizeutil.test" />
 
-    <application
-        android:allowBackup="true"
-        android:label="@string/app_name"
-        android:supportsRtl="true" >
+    <application>
         <uses-library android:name="android.test.runner" />
     </application>
 

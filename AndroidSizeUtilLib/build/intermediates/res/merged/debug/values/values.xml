@@ -3,5 +3,4 @@
     <item name="dataBinding" type="id"/>
     <item name="onAttachStateChangeListener" type="id"/>
     <item name="textWatcher" type="id"/>
-    <string name="app_name">AndroidSizeUtilLib</string>
 </resources>
