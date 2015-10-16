@@ -20,11 +20,21 @@ android {
     }
 }
 
+repositories {
+    maven {
+        url "https://raw.githubusercontent.com/LiushuiXiaoxia/AndroidSizeUtil/master/repo/"
+    }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.android.support:design:23.0.1'
 
-    compile project(':AndroidSizeUtilLib')
+    // test
+    compile 'cn.mycommons:androidsizeutil:1.0.0'
+
+    // dev
+    // compile project(':AndroidSizeUtilLib')
 }
