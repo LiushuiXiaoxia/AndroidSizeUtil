@@ -152,6 +152,11 @@ app:size="@{dimen.size(dimen.dp(100),100)}"
 app:size="@{dimen.size(dimen.screenWidth,100)}"
 ```
 
+Java api.
+
+[DimenUtil.java](AndroidSizeUtilLib/src/main/java/cn/mycommons/androidsizeutil/DimenUtil.java)
+[LayoutUtil.java](AndroidSizeUtilLib/src/main/java/cn/mycommons/androidsizeutil/LayoutUtil.java)
+
 ## Demo
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -228,8 +233,8 @@ app:size="@{dimen.size(dimen.screenWidth,100)}"
             app:size="@{dimen.sizeDp(100,100)}" />
     </RelativeLayout>
 </layout>
-![Demo](image/device-2015-10-16-180735.png)
 ```
+![Demo](image/device-2015-10-16-180735.png)
 
 ## Gradle
 ```
